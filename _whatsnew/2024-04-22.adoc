@@ -1,0 +1,9 @@
+= I modelli di volume non sono più supportati
+:allow-uri-read: 
+
+
+
+
+=== I modelli di volume non sono più supportati
+
+Non è più possibile creare un volume da un modello.  Questa azione era associata al servizio di ripristino BlueXP , che non è più disponibile.

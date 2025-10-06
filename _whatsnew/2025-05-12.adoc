@@ -1,0 +1,9 @@
+= Ruolo di accesso BlueXP richiesto
+:allow-uri-read: 
+
+
+
+
+=== Ruolo di accesso BlueXP richiesto
+
+Per visualizzare, individuare o gestire i cluster ONTAP locali, ora è necessario uno dei seguenti ruoli di accesso: amministratore dell'organizzazione, amministratore di cartelle o progetti, amministratore di archiviazione o specialista dell'integrità del sistema. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso."^]

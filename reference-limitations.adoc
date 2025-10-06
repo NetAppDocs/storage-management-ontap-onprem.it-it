@@ -1,0 +1,68 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features, on-premises ONTAP in NetApp Console 
+summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati da questa versione del prodotto o che non interagiscono correttamente con esso. Esamina attentamente queste limitazioni. 
+---
+= Limitazioni note della gestione dei cluster ONTAP locali nella console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati da questa versione del prodotto o che non interagiscono correttamente con esso. Esamina attentamente queste limitazioni.
+
+
+
+== Limitazioni relative ai sistemi ASA r2
+
+Dopo aver rilevato un sistema NetApp ASA r2, verrai indirizzato a System Manager.
+
+Con i sistemi ASA r2 non sono disponibili altre opzioni di gestione.  Non è possibile utilizzare la visualizzazione Standard e non è possibile abilitare i servizi dati NetApp .
+
+https://docs.netapp.com/us-en/asa-r2/index.html["Scopri di più sui sistemi ASA r2"^]
+
+
+
+== Cluster non supportati
+
+I cluster ONTAP locali configurati con autenticazione SAML non sono supportati dalla Console.
+
+
+
+== Limitazioni del gestore di sistema
+
+Le seguenti funzionalità di System Manager non sono supportate dalla Console:
+
+* Configurazione del cluster
++
+Dopo aver impostato l'indirizzo IP di gestione e configurato la password di amministrazione su un cluster ONTAP locale, è possibile individuare il cluster nella Console.
+
+* Controllo degli accessi basato sui ruoli (solo agente della console)
++
+Il controllo degli accessi basato sui ruoli da System Manager non è supportato durante l'individuazione e la gestione di un cluster ONTAP locale tramite un agente Console.  Durante il processo di individuazione ti verrà chiesto di immettere le tue credenziali di amministratore.  Tali credenziali vengono utilizzate per tutte le azioni intraprese da System Manager.
+
++
+Con l'opzione di rilevamento diretto, ogni volta che si apre il sistema nella Console, viene richiesto di accedere con le credenziali ONTAP .
+
+* Attivazione di NetApp Backup and Recovery
++
+Per abilitare Backup e Ripristino da System Manager, la versione del cluster deve essere 9.13.1.
+
++
+Se _non_ hai individuato un cluster utilizzando un agente Console, non puoi utilizzare System Manager (visualizzazione avanzata) per abilitare Backup e ripristino.  Tuttavia, è possibile abilitare Backup e Ripristino su un cluster locale direttamente dalla Console. https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["Scopri come iniziare"^]
+
+* Aggiornamenti su richiesta
++
+Gli aggiornamenti su richiesta del firmware e del software non sono disponibili se la versione del cluster è ONTAP 9.9.1 o precedente.
+
++
+Se _non_ si dispone di un agente Console, non è possibile effettuare aggiornamenti dal computer locale, ma solo da un server a cui è possibile accedere tramite la Console.
+
+* Ricerca globale
+* Impostazioni dell'interfaccia utente
+

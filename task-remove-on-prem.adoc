@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task-remove-on-prem.html 
+keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin, netapp console, console remove system 
+summary: Rimuovere un sistema ONTAP locale se non si desidera più gestirlo dalla console NetApp . 
+---
+= Rimuovere un sistema ONTAP on-prem dalla console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Rimuovere un sistema ONTAP locale se non si desidera più gestirlo dalla Console.
+
+.Ruolo console richiesto:
+Amministratore dell'archiviazione.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso alla console NetApp ."^]
+
+La rimozione del sistema non influisce sul cluster ONTAP .  Puoi riscoprirlo in qualsiasi momento dalla Console.
+
+.Passi
+. Dal menu di navigazione, seleziona *Archiviazione > Gestione*.
+. Selezionare il sistema ONTAP locale nella pagina *Sistemi*.
+. Selezionare l'icona del menu e selezionare *Rimuovi dall'area di lavoro*.
+. Selezionare *Rimuovi* per confermare.
+

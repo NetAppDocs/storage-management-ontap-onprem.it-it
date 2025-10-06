@@ -1,0 +1,50 @@
+---
+settings:
+  name: On-premises ONTAP clusters
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: it-it,us-en,de-de,es-es,fr-fr,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Cluster ONTAP locali nella console NetApp
+    url: "/index.html"
+  - title: Note di rilascio
+    entries:
+    - title: Cosa c'è di nuovo
+      url: "/whats-new.html"
+    - title: Limitazioni note
+      url: "/reference-limitations.html"
+  - title: Iniziare
+    entries:
+    - title: Scopri di più sulla gestione dei cluster ONTAP in sede
+      url: "/concept-onprem-ontap.html"
+    - title: Scopri i cluster ONTAP on-premise
+      url: "/task-discovering-ontap.html"
+  - title: Gestire i cluster ONTAP locali
+    entries:
+    - title: Gestisci i cluster scoperti direttamente
+      url: "/task-manage-ontap-direct.html"
+    - title: Gestisci i cluster scoperti con un agente console
+      url: "/task-manage-ontap-connector.html"
+    - title: Visualizza le informazioni sul cluster e i dettagli del contratto
+      url: "/task-view-cluster-info.html"
+    - title: Ottimizza i cluster utilizzando NetApp Digital Advisor
+      url: "/concept-aiq-digital-advisor.html"
+    - title: Rimuovere un sistema ONTAP locale
+      url: "/task-remove-on-prem.html"
+  - title: Conoscenza e supporto
+    entries:
+    - title: Registrati per ricevere supporto
+      url: "/task-support-registration.html"
+    - title: Ottieni aiuto
+      url: "/task-get-help.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+product-family:
+  name: Storage management
+  repo: storage-management-family

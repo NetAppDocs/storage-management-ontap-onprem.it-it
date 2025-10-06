@@ -1,0 +1,17 @@
+= Supporto per sistemi ASA r2
+:allow-uri-read: 
+
+
+
+
+=== Supporto per sistemi ASA r2
+
+Ora è possibile rilevare i sistemi NetApp ASA r2 in BlueXP quando si utilizza BlueXP in modalità standard o in modalità limitata.  Dopo aver rilevato un sistema NetApp ASA r2 e aver aperto l'ambiente di lavoro, si accede direttamente a System Manager.
+
+Con i sistemi ASA r2 non sono disponibili altre opzioni di gestione.  Non è possibile utilizzare la visualizzazione Standard e non è possibile abilitare i servizi BlueXP .
+
+L'individuazione dei sistemi ASA r2 non è supportata quando si utilizza BlueXP in modalità privata.
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["Scopri di più sui sistemi ASA r2"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["Scopri di più sulle modalità di distribuzione di BlueXP"^]
+

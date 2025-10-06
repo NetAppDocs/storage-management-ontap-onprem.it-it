@@ -1,0 +1,190 @@
+---
+sidebar: sidebar 
+permalink: task-discovering-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+summary: Scopri i cluster ONTAP on-prem dalla console NetApp in modo da poter iniziare a gestire i volumi ed eseguire una gestione avanzata utilizzando ONTAP System Manager, disponibile dalla console. 
+---
+= Scopri i cluster ONTAP locali nella console NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Scopri i cluster ONTAP on-premise dalla console NetApp , così puoi iniziare a gestire i volumi ed eseguire la gestione avanzata utilizzando ONTAP System Manager, direttamente dalla console.
+
+.Ruolo console richiesto:
+Amministratore dell'archiviazione o specialista dell'integrità del sistema.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso alla console NetApp ."^]
+
+
+
+== Fase 1: esaminare le opzioni di scoperta e gestione
+
+È possibile aggiungere cluster ONTAP locali alla Console in due modi.  La scelta dipende dalla presenza o meno di un agente Console nella tua organizzazione:
+
+Rilevamento e gestione tramite un agente Console:: Questa opzione consente di gestire i cluster che eseguono ONTAP 8.3 e versioni successive utilizzando le seguenti funzionalità:
++
+--
+* Fornisce operazioni di volume di base in modo nativo tramite la console NetApp
+* ONTAP System Manager (supportato con ONTAP 9.10.0 e versioni successive), accedi a System Manager per ciascun rispettivo cluster direttamente dalla Console
+* Integrazione con i servizi dati NetApp che forniscono replicazione dei dati, backup e ripristino, classificazione dei dati e cloud tiering
+* Per installare un agente Console è necessario disporre del ruolo di amministratore dell'organizzazione.  Per qualsiasi domanda, contattare l'amministratore della console. https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html#contact-your-organization-administrator["Contatta l'amministratore della tua organizzazione."^]
+
+
+--
+Scoperta e gestione diretta:: Questa opzione consente di gestire i cluster che eseguono ONTAP 9.12.1 e versioni successive tramite System Manager.  Non sono disponibili altre opzioni di gestione.  Non è possibile utilizzare la visualizzazione Standard e non è possibile abilitare i servizi dati NetApp .
++
+--
+Questa opzione non richiede un agente Console.
+
+Quando si accede a System Manager su un cluster ONTAP locale che esegue la versione 9.12.1 o successiva con connettività alla Console, verrà richiesto di gestire il cluster direttamente dalla Console.  Se si segue questa richiesta, il cluster viene rilevato nella Console tramite l'opzione di rilevamento diretto.
+
+--
+
+
+Una volta individuati, i cluster saranno disponibili nella pagina *Sistemi* della Console.
+
+Se decidi di aggiungere un agente Console alla tua NetApp Console, devi aggiungere nuovamente il tuo cluster locale dalla pagina *Sistemi non rilevati*.  Ciò consente la gestione nativa dalla Console e l'accesso ai servizi dati NetApp .  Dovresti quindi rimuovere l'altro sistema.
+
+
+
+== Passaggio 2: configura il tuo ambiente
+
+Prima di scoprire i cluster ONTAP locali, assicurati di aver soddisfatto i seguenti requisiti.
+
+Requisiti generali::
++
+--
+* Sono necessari l'indirizzo IP di gestione del cluster e la password per l'account utente amministratore.
+* La console rileva i cluster ONTAP tramite HTTPS.  Se si utilizzano criteri firewall personalizzati, il cluster ONTAP deve consentire l'accesso HTTPS in ingresso tramite la porta 443.
++
+Il criterio firewall predefinito "mgmt" consente l'accesso HTTPS in entrata da tutti gli IP.  Se modificato, assicurarsi che il protocollo HTTPS sia abilitato per l'host dell'agente.
+
+
+
+--
+Per scoprire un sistema con un agente Console::
++
+--
+* Il cluster locale deve eseguire ONTAP 8.3 o versione successiva.
+* È necessario che un agente Console sia installato presso un provider cloud o presso la propria sede.
++
+Per trasferire i dati inattivi sul cloud, rivedere i requisiti dell'agente per l'ambiente di destinazione.
+
++
+** https://docs.netapp.com/us-en/console-setup-admin/concept-connectors.html["Scopri di più sugli agenti della console"^]
+** https://docs.netapp.com/us-en/console-setup-admin/task-manage-multiple-connectors.html["Scopri come passare da un agente all'altro"^]
+** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["Scopri di più su NetApp Cloud Tiering"^]
+
+
+* L'host agente deve consentire connessioni in uscita tramite la porta 443 (HTTPS) e il cluster ONTAP deve consentire l'accesso HTTP in entrata tramite la porta 443 al LIF di gestione del cluster.
++
+Se l'agente si trova nel cloud, il gruppo di sicurezza predefinito consente tutte le comunicazioni in uscita.
+
+
+
+--
+Requisiti per la scoperta diretta::
++
+--
+* Il cluster locale deve eseguire ONTAP 9.12.1 o versione successiva.
+* Il cluster deve disporre di connettività in entrata e in uscita al servizio NetApp Console:
++
+\ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
+
+* Il computer che stai utilizzando per accedere alla Console deve disporre di una connessione di rete al cluster ONTAP locale, in modo simile a come forniresti connessioni ad altre risorse nella tua rete privata.
+
+
+--
+
+
+
+
+== Fase 3: Scopri un cluster
+
+Scopri i tuoi cluster ONTAP locali dalla Console in uno dei due modi seguenti:
+
+* Da *Archiviazione > Gestione > Sistemi*, seleziona *Aggiungi +* e aggiungi manualmente i dettagli sul cluster ONTAP locale.
+* Da *Archiviazione > Gestione > Sistemi Discoverabe* seleziona un cluster che la Console ha pre-rilevato in base ai cluster ONTAP associati all'indirizzo e-mail per l'accesso alla Console NetApp .
+
+
+Quando si avvia il processo di individuazione, la Console individua un cluster come segue:
+
+* Se si dispone di un agente Console connesso a un cluster ONTAP , la Console utilizza tale agente per individuare e gestire il cluster.
+* Se non si dispone di un agente Console o se l'agente non ha una connessione al cluster ONTAP , la Console utilizza automaticamente l'opzione di rilevamento e gestione diretta.
+
+
+[role="tabbed-block"]
+====
+.Scopri un cluster manualmente
+--
+Scopri un cluster ONTAP locale nella Console immettendo l'indirizzo IP di gestione del cluster e la password per l'account utente amministratore.
+
+.Passi
+. Dal menu di navigazione, seleziona *Archiviazione > Gestione*.
+. Nella pagina *Sistemi*, seleziona *Aggiungi +*.
+. Selezionare *In sede*.
+. Accanto a On-Premises ONTAP, seleziona *Scopri*.
+. Nella pagina _Discover_, immettere l'indirizzo IP di gestione del cluster e la password per l'account utente amministratore.
+. Se stai rilevando il cluster direttamente (senza un agente console), seleziona *Salva le credenziali*.
++
+Se selezioni questa opzione, non dovrai reinserire le credenziali ogni volta che accedi al sistema dalla Console.  Queste credenziali sono associate al tuo accesso utente alla console NetApp .  Non vengono salvati per essere utilizzati da nessun altro nell'organizzazione NetApp Console.
+
+. Seleziona *Scopri*.
++
+Se non si dispone di un agente Console e l'indirizzo IP non è raggiungibile dalla Console, verrà richiesto di creare un agente Console.  Se non ne hai uno, contatta l'amministratore della console per creare un agente della console.
+
+
+
+.Risultato
+La Console aggiunge il cluster rilevato come sistema nella pagina *Sistemi*. Ora puoi iniziare a gestire il cluster.
+
+* link:task-manage-ontap-direct.html["Scopri come gestire i cluster scoperti direttamente"]
+* link:task-manage-ontap-connector.html["Scopri come gestire i cluster rilevati con un agente Console"]
+
+
+--
+.Aggiungi un cluster pre-scoperto
+--
+La Console rileva i cluster ONTAP collegati all'email di accesso e li visualizza come cluster non rilevati nella pagina *Sistemi rilevabili*.  È possibile visualizzare l'elenco dei cluster non scoperti e aggiungerli uno alla volta.
+
+.Informazioni su questo compito
+Si noti quanto segue sui cluster ONTAP locali che compaiono nella pagina *Sistemi rilevabili*:
+
+* L'indirizzo e-mail utilizzato per accedere alla Console deve essere associato a un account NetApp Support Site (NSS) registrato e di livello completo.
++
+** Se accedi alla Console con il tuo account NSS e passi alla pagina *Sistemi rilevabili*, la Console utilizza quell'account NSS per trovare i cluster associati all'account.
+** Se accedi alla Console con un account locale o una connessione federata e accedi alla pagina *Sistemi rilevabili*, la Console ti chiederà di verificare il tuo indirizzo email.  Se tale indirizzo e-mail è associato a un account NSS, la Console utilizza tali informazioni per individuare i cluster associati all'account.
+
+
+* La Console mostra solo i cluster ONTAP che hanno inviato correttamente messaggi AutoSupport a NetApp.
+* Per aggiornare l'elenco dell'inventario, uscire dalla pagina *Sistemi rilevabili*, attendere 5 minuti e poi tornarci.
+
+
+.Passi
+. Dal menu di navigazione, seleziona *Archiviazione > Gestione*.
+. Nella pagina *Sistemi rilevabili*, selezionare *Scopri* per ONTAP in locale.
++
+image:screenshot-my-estate-ontap.png["Uno screenshot della pagina Sistemi rilevabili che mostra 12 cluster ONTAP locali non rilevati."]
+
+. Seleziona un cluster e poi seleziona *Scopri*.
++
+image:screenshot-my-estate-ontap-discover.png["Uno screenshot della pagina Sistemi rilevabili che mostra 12 cluster ONTAP locali non rilevati."]
+
+. Inserisci la password per l'account utente amministratore.
+. Seleziona *Scopri*.
++
+Se non si dispone di un agente Console e l'indirizzo IP non è raggiungibile dalla Console, verrà richiesto di creare un agente Console.  Se non ne hai uno, contatta l'amministratore della console per creare un agente della console.
+
++
+** link:task-manage-ontap-direct.html["Scopri come gestire i cluster scoperti direttamente"]
+** link:task-manage-ontap-connector.html["Scopri come gestire i cluster rilevati con un agente Console"]
+
+
+
+
+--
+====
