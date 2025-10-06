@@ -4,7 +4,7 @@ permalink: reference-limitations.html
 keywords: limitations, system manager, unsupported features, on-premises ONTAP in NetApp Console 
 summary: Le limitazioni note identificano piattaforme, dispositivi o funzioni che non sono supportati da questa versione del prodotto o che non interagiscono correttamente con esso. Esamina attentamente queste limitazioni. 
 ---
-= Limitazioni note della gestione dei cluster ONTAP locali nella console NetApp
+= Limitazioni note della gestione dei cluster ONTAP locali nella NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -49,7 +49,7 @@ Il controllo degli accessi basato sui ruoli da System Manager non è supportato 
 +
 Con l'opzione di rilevamento diretto, ogni volta che si apre il sistema nella Console, viene richiesto di accedere con le credenziali ONTAP .
 
-* Attivazione di NetApp Backup and Recovery
+* Attivazione NetApp Backup and Recovery
 +
 Per abilitare Backup e Ripristino da System Manager, la versione del cluster deve essere 9.13.1.
 

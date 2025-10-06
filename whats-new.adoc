@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
 summary: Scopri le novità sulla gestione dei cluster ONTAP on-premise in BlueXP. 
 ---
-= Novità sui cluster ONTAP on-premise nella console NetApp
+= Novità sui cluster ONTAP on-premise nella NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -24,9 +24,9 @@ Scopri le novità sulla gestione dei cluster ONTAP on-premise nella NetApp Conso
 
 === BlueXP è ora NetApp Console
 
-NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e dei NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
+NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
 
-Per i dettagli su cosa è cambiato, vedere illink:https://docs.netapp.com/us-en/console-relnotes/index.html["Note sulla versione della console NetApp"] .
+Per i dettagli su cosa è cambiato, vedere illink:https://docs.netapp.com/us-en/console-relnotes/index.html["Note sulla versione NetApp Console"] .
 
 
 
@@ -197,7 +197,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 
 
-=== Pagina Volumi ridisegnata
+=== Pagina Volumi riprogettata
 
 Abbiamo riprogettato la pagina Volumi per fornire un riepilogo dei volumi presenti in un cluster.  Il riepilogo mostra il numero totale di volumi, la quantità di capacità fornita, la capacità utilizzata e riservata e la quantità di dati suddivisi in livelli.
 
@@ -213,7 +213,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 Se è necessario eseguire una gestione avanzata di un cluster ONTAP on-premise, è possibile farlo utilizzando ONTAP System Manager, un'interfaccia di gestione fornita con un sistema ONTAP .  Abbiamo incluso l'interfaccia di System Manager direttamente all'interno di Cloud Manager, così non dovrai uscire da Cloud Manager per una gestione avanzata.
 
-Questa visualizzazione avanzata è disponibile come anteprima con cluster ONTAP locali che eseguono la versione 9.10.0 o successiva. Abbiamo intenzione di perfezionare questa esperienza e aggiungere miglioramenti nelle prossime versioni. Inviaci il tuo feedback tramite la chat interna al prodotto.
+Questa visualizzazione avanzata è disponibile come anteprima con cluster ONTAP locali che eseguono la versione 9.10.0 o successiva.  Abbiamo intenzione di perfezionare questa esperienza e aggiungere miglioramenti nelle prossime versioni.  Inviaci il tuo feedback tramite la chat interna al prodotto.
 
 * link:task-manage-ontap-direct.html["Scopri come gestire i cluster scoperti direttamente"]
 * link:task-manage-ontap-connector.html["Scopri come gestire i cluster scoperti con un connettore"]
@@ -227,7 +227,7 @@ Questa visualizzazione avanzata è disponibile come anteprima con cluster ONTAP 
 
 === Una scheda " ONTAP locale" è disponibile nel Portafoglio digitale
 
-Ora puoi visualizzare un inventario dei tuoi cluster ONTAP locali, insieme alle date di scadenza dei relativi hardware e contratti di servizio. Sono disponibili anche ulteriori dettagli sui cluster.
+Ora puoi visualizzare un inventario dei tuoi cluster ONTAP locali, insieme alle date di scadenza dei relativi hardware e contratti di servizio.  Sono disponibili anche ulteriori dettagli sui cluster.
 
 https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-info.html["Scopri come visualizzare queste importanti informazioni sul cluster on-prem"] . Sarà necessario disporre di un account NetApp Support Site (NSS) per i cluster e le credenziali NSS dovranno essere collegate al proprio account Cloud Manager.
 

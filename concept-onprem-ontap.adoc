@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-onprem-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
-summary: 'È possibile gestire i cluster ONTAP in esecuzione sui controller AFF/ FAS e ONTAP Select dalla console NetApp .  Aggiungendo sistemi ONTAP on-premise alla console NetApp è possibile gestire tutte le risorse di storage e dati da un"unica interfaccia.' 
+summary: 'È possibile gestire i cluster ONTAP in esecuzione sui controller AFF/ FAS e ONTAP Select dalla NetApp Console.  Aggiungendo sistemi ONTAP on-premise alla NetApp Console è possibile gestire tutte le risorse di storage e dati da un"unica interfaccia.' 
 ---
-= Scopri di più sulla gestione dei cluster ONTAP on-premise nella console NetApp
+= Scopri di più sulla gestione dei cluster ONTAP on-premise nella NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,17 @@ summary: 'È possibile gestire i cluster ONTAP in esecuzione sui controller AFF/
 
 
 [role="lead"]
-È possibile gestire i cluster ONTAP in esecuzione sui controller AFF/ FAS e ONTAP Select dalla console NetApp .  Aggiungendo sistemi ONTAP locali alla Console è possibile gestire centralmente tutte le risorse di archiviazione e dati.
+È possibile gestire i cluster ONTAP in esecuzione sui controller AFF/ FAS e ONTAP Select dalla NetApp Console.  Aggiungendo sistemi ONTAP locali alla Console è possibile gestire centralmente tutte le risorse di archiviazione e dati.
 
 
 
-== Console NetApp
+== NetApp Console
 
 NetApp Console offre una gestione centralizzata dei servizi di storage e dati NetApp in ambienti on-premise e cloud di livello aziendale. La console è necessaria per accedere e utilizzare i servizi dati NetApp . In quanto interfaccia di gestione, consente di gestire numerose risorse di archiviazione da un'unica interfaccia. Gli amministratori della console possono controllare l'accesso allo storage e ai servizi per tutti i sistemi all'interno dell'azienda.
 
 Per iniziare a utilizzare NetApp Console non è necessaria una licenza o un abbonamento e verranno addebitati costi solo quando sarà necessario distribuire gli agenti della console nel cloud per garantire la connettività ai sistemi di storage o ai servizi dati NetApp . Tuttavia, alcuni servizi dati NetApp accessibili dalla Console sono concessi in licenza o basati su abbonamento.
 
-Scopri di più su https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["Console NetApp"] .
+Scopri di più su https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 
@@ -47,5 +47,5 @@ Potrebbe essere associato un costo, ma dipende da quanto segue:
 +
 È possibile installare un agente Console nel cloud o in sede.  L'installazione di un agente Console nel cloud comporta dei costi.
 
-* Che tu utilizzi servizi dati NetApp come NetApp Backup and Recovery, NetApp Ransomware Resilience e così via.
+* Se utilizzi servizi dati NetApp come NetApp Backup and Recovery, NetApp Ransomware Resilience e così via.
 

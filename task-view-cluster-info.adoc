@@ -14,9 +14,9 @@ summary: Il portafoglio digitale consente di visualizzare i dettagli del contrat
 
 
 [role="lead"]
-Puoi visualizzare i dettagli del contratto per ciascuno dei tuoi cluster ONTAP locali nella console NetApp . Se non hai ancora individuato un cluster, puoi farlo anche dalla pagina *Abbonamenti e licenze*.
+Puoi visualizzare i dettagli del contratto per ciascuno dei tuoi cluster ONTAP locali nella NetApp Console . Se non hai ancora individuato un cluster, puoi farlo anche dalla pagina *Abbonamenti e licenze*.
 
 .Ruolo console richiesto:
-Amministratore dell'archiviazione o visualizzatore dell'archiviazione.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso alla console NetApp ."^]
+Amministratore dell'archiviazione o visualizzatore dell'archiviazione.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso NetApp Console ."^]
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Scopri di più sulla gestione delle licenze per i cluster ONTAP on-premise dalla Console"^]
