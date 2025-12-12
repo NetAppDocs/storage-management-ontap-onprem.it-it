@@ -149,10 +149,7 @@ Aprire il Gestore di sistema per il sistema.
 . Dal pannello di destra, sotto *Servizi*, trova *Gestore di sistema* e seleziona *Apri*.
 . Se vedi il messaggio di conferma, leggilo attentamente e seleziona *Chiudi*.
 . Utilizzare System Manager per gestire ONTAP.
-. Se necessario, selezionare *Passa alla visualizzazione standard* per tornare alla gestione standard tramite la Console.
-+
-image:screenshot-standard-view.png["Uno screenshot di un sistema ONTAP locale che mostra l'opzione Passa alla visualizzazione standard."]
-
+. Se necessario, selezionare *Torna indietro* per tornare alla gestione standard tramite la Console.
 
 
 

@@ -1,0 +1,19 @@
+= Miglioramenti dell'usabilità durante la visualizzazione dei sistemi ONTAP dalla NetApp Console (solo modalità standard)
+:allow-uri-read: 
+
+
+
+
+=== Miglioramenti dell'usabilità durante la visualizzazione dei sistemi ONTAP dalla NetApp Console (solo modalità standard)
+
+La pagina *Sistemi* nella NetApp Console presenta miglioramenti per chiarezza e usabilità nella gestione di volumi e cluster.  Questi aggiornamenti allineano maggiormente l'esperienza con System Manager per le versioni ONTAP più recenti e semplificano la navigazione.
+
+.Capacità del cluster inclusa per le versioni ONTAP 9.5 e successive (solo modalità standard della console)
+La pagina *Sistemi > Panoramica* mostra le dimensioni del cluster insieme alla versione ONTAP per i cluster che eseguono ONTAP 9.5 e versioni successive.
+
+Per NetApp Console in modalità limitata o per le versioni ONTAP 9.5 e precedenti, le informazioni sul volume fornito rimangono invariate.
+
+.La scheda Volumi nella pagina Sistemi è impostata per impostazione predefinita sulla visualizzazione griglia se si dispone di più di 20 cluster ONTAP locali
+Se nella NetApp Console sono gestiti più di 20 cluster ONTAP locali, la scheda *Volume* utilizza per impostazione predefinita la visualizzazione griglia per una navigazione più semplice.  La visualizzazione delle schede è disabilitata.
+
+Questa modifica si applica solo alla modalità standard e alle versioni ONTAP 9.6 e successive.

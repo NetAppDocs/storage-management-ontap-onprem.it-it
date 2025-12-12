@@ -18,6 +18,12 @@ Scopri le novità sulla gestione dei cluster ONTAP on-premise nella NetApp Conso
 
 
 
+== 08 dicembre 2025
+
+Direttiva non risolta in <stdin> - include::_whatsnew/2025-12-08.adoc[]
+
+
+
 == 06 ottobre 2025
 
 

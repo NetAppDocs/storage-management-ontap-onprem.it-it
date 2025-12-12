@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, subscriptions, licenses, digital advisor 
 summary: Scopri i cluster ONTAP on-prem dalla NetApp Console in modo da poter iniziare a gestire i volumi ed eseguire una gestione avanzata utilizzando ONTAP System Manager, disponibile dalla console. 
 ---
 = Scopri i cluster ONTAP locali nella NetApp Console
@@ -25,7 +25,7 @@ Amministratore dell'archiviazione o specialista dell'integrità del sistema.link
 
 È possibile aggiungere cluster ONTAP locali alla Console in due modi.  La scelta dipende dalla presenza o meno di un agente Console nella tua organizzazione:
 
-Rilevamento e gestione tramite un agente Console:: Questa opzione consente di gestire i cluster che eseguono ONTAP 8.3 e versioni successive utilizzando le seguenti funzionalità:
+Rilevamento e gestione tramite un agente Console:: Questa opzione consente di gestire i cluster che eseguono ONTAP utilizzando le seguenti funzionalità:
 +
 --
 * Fornisce operazioni di volume di base in modo nativo tramite la NetApp Console
@@ -135,7 +135,7 @@ Se selezioni questa opzione, non dovrai reinserire le credenziali ogni volta che
 
 . Seleziona *Scopri*.
 +
-Se non si dispone di un agente Console e l'indirizzo IP non è raggiungibile dalla Console, verrà richiesto di creare un agente Console.  Se non ne hai uno, contatta l'amministratore della console per creare un agente della console.
+Se non si dispone di un agente Console e l'indirizzo IP non è raggiungibile dalla Console, verrà richiesto di creare un agente Console. Se non ne hai uno, contatta l'amministratore della console per creare un agente della console.
 
 
 

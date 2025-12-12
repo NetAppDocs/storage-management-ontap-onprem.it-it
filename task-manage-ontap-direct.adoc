@@ -30,11 +30,12 @@ link:reference-limitations.html["Rivedi l'elenco delle limitazioni"] .
 .Passi
 . Nella pagina *Sistemi*, selezionare il sistema ONTAP locale.
 +
-L'icona di sistema identifica i cluster scoperti direttamente:
+Il termine "diretto" identifica i cluster scoperti direttamente:
 
 +
 image:screenshot-direct-discovery-we.png["Uno screenshot dell'icona di sistema che appare nella pagina Sistema"]
 
+. Nella pagina *Dettagli sistema*, seleziona *Inserisci sistema*.
 . Se richiesto, inserisci le tue credenziali ONTAP .
 +
 Ogni volta che apri il sistema, ti verrà chiesto di accedere con le tue credenziali ONTAP , a meno che tu non le salvi. Puoi salvare le credenziali in modo da non doverle inserire ogni volta. Puoi gestire queste credenziali nella pagina Credenziali utente.  In alcuni casi, l'amministratore della console (con il ruolo di amministratore dell'organizzazione) potrebbe aver disabilitato questa opzione e richiedere di immettere le credenziali ogni volta.

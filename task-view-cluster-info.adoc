@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-cluster-info.html 
 keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
-summary: Il portafoglio digitale consente di visualizzare i dettagli del contratto per ciascuno dei cluster ONTAP on-prem.  Se non hai ancora scoperto un cluster, puoi farlo anche dal portafoglio digitale. 
+summary: È possibile visualizzare i dettagli del contratto per ciascuno dei cluster ONTAP locali dalla pagina *Abbonamenti e licenze*. 
 ---
 = Visualizza le informazioni sul cluster e i dettagli del contratto
 :hardbreaks:
@@ -14,9 +14,18 @@ summary: Il portafoglio digitale consente di visualizzare i dettagli del contrat
 
 
 [role="lead"]
-Puoi visualizzare i dettagli del contratto per ciascuno dei tuoi cluster ONTAP locali nella NetApp Console . Se non hai ancora individuato un cluster, puoi farlo anche dalla pagina *Abbonamenti e licenze*.
+È possibile visualizzare le informazioni sulla capacità e sulle licenze direttamente dalla NetApp Console.
 
-.Ruolo console richiesto:
-Amministratore dell'archiviazione o visualizzatore dell'archiviazione.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso NetApp Console ."^]
+
+
+== Visualizza le informazioni sulla capacità
+
+Quando si seleziona un cluster ONTAP locale dalla pagina *Sistemi*, la pagina *Dettagli sistema* visualizza le informazioni sulla capacità del cluster, tra cui la capacità totale, la capacità utilizzata e la capacità disponibile.
+
+
+
+== Visualizza i dettagli della licenza e del contratto
+
+È possibile visualizzare i dettagli del contratto per ciascuno dei cluster ONTAP locali dalla pagina *Abbonamenti e licenze*.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["Scopri di più sulla gestione delle licenze per i cluster ONTAP on-premise dalla Console"^]
