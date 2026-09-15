@@ -21,6 +21,7 @@ Amministratore dell'archiviazione o specialista dell'integrità del sistema.link
 
 
 
+[[step-1-review-discovery-and-management-options]]
 == Fase 1: esaminare le opzioni di scoperta e gestione
 
 È possibile aggiungere cluster ONTAP locali alla Console in due modi.  La scelta dipende dalla presenza o meno di un agente Console nella tua organizzazione:
@@ -51,6 +52,7 @@ Se decidi di aggiungere un agente Console alla tua NetApp Console, devi aggiunge
 
 
 
+[[step-2-set-up-your-environment]]
 == Passaggio 2: configura il tuo ambiente
 
 Prima di scoprire i cluster ONTAP locali, assicurati di aver soddisfatto i seguenti requisiti.
@@ -103,6 +105,7 @@ Requisiti per la scoperta diretta::
 
 
 
+[[step-3-discover-a-cluster]]
 == Passaggio 3: scoprire un cluster
 
 Scopri i tuoi cluster ONTAP locali dalla Console in uno dei due modi seguenti:

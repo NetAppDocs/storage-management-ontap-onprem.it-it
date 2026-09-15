@@ -18,6 +18,7 @@ NetApp Digital Advisor ti consente di ottimizzare le operazioni, la sicurezza e 
 
 
 
+[[features]]
 == Caratteristiche
 
 Utilizzando Digital Advisor è possibile visualizzare lo stato generale del sistema di archiviazione, informazioni di alto livello sullo stato del sistema, inventario, pianificazione, aggiornamenti e preziose informazioni a livello di lista di controllo.
@@ -32,12 +33,14 @@ Utilizzando Digital Advisor è possibile visualizzare lo stato generale del sist
 
 
 
+[[supported-ontap-systems]]
 == Sistemi ONTAP supportati
 
 Digital Advisor fornisce informazioni su tutti i sistemi ONTAP on-premise e sui sistemi Cloud Volumes ONTAP associati al tuo account NetApp Support Site (NSS).
 
 
 
+[[more-information]]
 == Ulteriori informazioni
 
 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Documentazione Digital Advisor"^]

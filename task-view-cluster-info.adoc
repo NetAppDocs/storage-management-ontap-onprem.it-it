@@ -18,12 +18,14 @@ summary: È possibile visualizzare i dettagli del contratto per ciascuno dei clu
 
 
 
+[[view-capacity-information]]
 == Visualizza le informazioni sulla capacità
 
 Quando si seleziona un cluster ONTAP locale dalla pagina *Sistemi*, la pagina *Dettagli sistema* visualizza le informazioni sulla capacità del cluster, tra cui la capacità totale, la capacità utilizzata e la capacità disponibile.
 
 
 
+[[view-license-and-contract-details]]
 == Visualizza i dettagli della licenza e del contratto
 
 È possibile visualizzare i dettagli del contratto per ciascuno dei cluster ONTAP locali dalla pagina *Abbonamenti e licenze*.

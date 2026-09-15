@@ -18,16 +18,19 @@ Scopri le novità sulla gestione dei cluster ONTAP on-premise nella NetApp Conso
 
 
 
+[[08-december-2025]]
 == 08 dicembre 2025
 
 Direttiva non risolta in <stdin> - include::_whatsnew/2025-12-08.adoc[]
 
 
 
+[[06-october-2025]]
 == 06 ottobre 2025
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP è ora NetApp Console
 
 NetApp Console, basata sulle fondamenta BlueXP migliorate e ristrutturate, offre una gestione centralizzata dello storage NetApp e NetApp Data Services in ambienti on-premise e cloud di livello aziendale, offrendo informazioni in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, il tutto in modo altamente sicuro e conforme.
@@ -36,20 +39,24 @@ Per i dettagli su cosa è cambiato, vedere illink:https://docs.netapp.com/us-en/
 
 
 
+[[12-may-2025]]
 == 12 maggio 2025
 
 
 
+[[bluexp-access-role-needed]]
 === Ruolo di accesso BlueXP richiesto
 
 Per visualizzare, individuare o gestire i cluster ONTAP locali, ora è necessario uno dei seguenti ruoli di accesso: amministratore dell'organizzazione, amministratore di cartelle o progetti, amministratore di archiviazione o specialista dell'integrità del sistema. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Scopri di più sui ruoli di accesso."^]
 
 
 
+[[26-november-2024]]
 == 26 novembre 2024
 
 
 
+[[support-for-asa-r2-systems-with-private-mode]]
 === Supporto per sistemi ASA r2 con modalità privata
 
 Ora è possibile individuare i sistemi NetApp ASA r2 quando si utilizza BlueXP in modalità privata.  Questo supporto è disponibile a partire dalla versione 3.9.46 in modalità privata di BlueXP.
@@ -60,10 +67,12 @@ Ora è possibile individuare i sistemi NetApp ASA r2 quando si utilizza BlueXP i
 
 
 
+[[7-october-2024]]
 == 7 ottobre 2024
 
 
 
+[[support-for-asa-r2-systems]]
 === Supporto per sistemi ASA r2
 
 Ora è possibile rilevare i sistemi NetApp ASA r2 in BlueXP quando si utilizza BlueXP in modalità standard o in modalità limitata.  Dopo aver rilevato un sistema NetApp ASA r2 e aver aperto l'ambiente di lavoro, si accede direttamente a System Manager.
@@ -78,20 +87,24 @@ L'individuazione dei sistemi ASA r2 non è supportata quando si utilizza BlueXP 
 
 
 
+[[22-april-2024]]
 == 22 aprile 2024
 
 
 
+[[volume-templates-no-longer-supported]]
 === I modelli di volume non sono più supportati
 
 Non è più possibile creare un volume da un modello.  Questa azione era associata al servizio di ripristino BlueXP , che non è più disponibile.
 
 
 
+[[30-july-2023]]
 == 30 luglio 2023
 
 
 
+[[create-flexgroup-volumes]]
 === Crea volumi FlexGroup
 
 Se gestisci un cluster con un connettore, ora puoi creare volumi FlexGroup utilizzando l'API BlueXP .
@@ -102,10 +115,12 @@ Se gestisci un cluster con un connettore, ora puoi creare volumi FlexGroup utili
 
 
 
+[[2-july-2023]]
 == 2 luglio 2023
 
 
 
+[[cluster-discovery-from-my-estate]]
 === Scoperta del cluster dalla mia proprietà
 
 Ora puoi scoprire i cluster ONTAP locali da *Canvas > My estate* selezionando un cluster che BlueXP ha pre-scoperto in base ai cluster ONTAP associati all'indirizzo e-mail per l'accesso a BlueXP .
@@ -114,16 +129,19 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 
 
+[[4-may-2023]]
 == 4 maggio 2023
 
 
 
+[[enable-bluexp-backup-and-recovery]]
 === Abilita il BlueXP backup and recovery
 
 A partire da ONTAP 9.13.1, è possibile utilizzare System Manager (visualizzazione avanzata) per abilitare il BlueXP backup and recovery se il cluster è stato rilevato tramite un connettore.link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["Scopri di più sull'abilitazione BlueXP backup and recovery"^]
 
 
 
+[[upgrade-ontap-version-image-and-hardware-firmware]]
 === Aggiorna l'immagine della versione ONTAP e il firmware hardware
 
 A partire da ONTAP 9.10.1, è possibile utilizzare System Manager (visualizzazione avanzata) per aggiornare l'immagine della versione ONTAP e il firmware hardware.  Puoi scegliere di ricevere aggiornamenti automatici per rimanere aggiornato oppure puoi effettuare aggiornamenti manuali dal tuo computer locale o da un server a cui puoi accedere tramite BlueXP.link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["Scopri di più sull'aggiornamento ONTAP e del firmware"^]
@@ -133,10 +151,12 @@ NOTE: Se _non_ si dispone di un connettore, non è possibile effettuare aggiorna
 
 
 
+[[3-april-2023]]
 == 3 aprile 2023
 
 
 
+[[single-discovery-option-from-the-bluexp-console]]
 === Opzione di rilevamento singolo dalla console BlueXP
 
 Quando si rileva un cluster ONTAP on-prem dalla console BlueXP , verrà visualizzata un'unica opzione:
@@ -155,10 +175,12 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 
 
+[[1-january-2023]]
 == 1 gennaio 2023
 
 
 
+[[save-ontap-credentials]]
 === Salva le credenziali ONTAP
 
 Quando si apre un ambiente di lavoro ONTAP locale rilevato direttamente senza utilizzare un connettore, ora è possibile salvare le credenziali del cluster ONTAP in modo da non doverle immettere ogni volta che si apre l'ambiente di lavoro.
@@ -167,10 +189,12 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-manage-ontap-
 
 
 
+[[4-december-2022]]
 == 4 dicembre 2022
 
 
 
+[[new-way-to-discover-on-premises-ontap-clusters]]
 === Nuovo modo per scoprire i cluster ONTAP on-premise
 
 Ora puoi scoprire direttamente i tuoi cluster ONTAP on-premise senza utilizzare un connettore.  Questa opzione consente la gestione del cluster solo tramite System Manager.  Non è possibile abilitare alcun servizio dati BlueXP su questo tipo di ambiente di lavoro.
@@ -179,6 +203,7 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 
 
+[[flexgroup-volumes]]
 === Volumi FlexGroup
 
 Per i cluster ONTAP locali rilevati tramite un connettore, la vista Standard in BlueXP ora mostra i volumi FlexGroup creati tramite System Manager o ONTAP CLI.  È inoltre possibile gestire questi volumi clonandoli, modificandone le impostazioni, eliminandoli e altro ancora.
@@ -189,10 +214,12 @@ BlueXP non supporta la creazione di volumi FlexGroup .  Sarà necessario continu
 
 
 
+[[18-september-2022]]
 == 18 settembre 2022
 
 
 
+[[new-overview-page]]
 === Nuova pagina Panoramica
 
 Abbiamo introdotto una nuova pagina Panoramica per fornire dettagli chiave su un cluster ONTAP locale.  Ad esempio, ora è possibile visualizzare dettagli quali l'efficienza dello storage, la distribuzione della capacità e le informazioni di sistema.
@@ -203,6 +230,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 
 
+[[redesigned-volumes-page]]
 === Pagina Volumi riprogettata
 
 Abbiamo riprogettato la pagina Volumi per fornire un riepilogo dei volumi presenti in un cluster.  Il riepilogo mostra il numero totale di volumi, la quantità di capacità fornita, la capacità utilizzata e riservata e la quantità di dati suddivisi in livelli.
@@ -211,10 +239,12 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 
 
+[[7-june-2022]]
 == 7 giugno 2022
 
 
 
+[[new-advanced-view]]
 === Nuova vista avanzata
 
 Se è necessario eseguire una gestione avanzata di un cluster ONTAP on-premise, è possibile farlo utilizzando ONTAP System Manager, un'interfaccia di gestione fornita con un sistema ONTAP .  Abbiamo incluso l'interfaccia di System Manager direttamente all'interno di Cloud Manager, così non dovrai uscire da Cloud Manager per una gestione avanzata.
@@ -227,10 +257,12 @@ Questa visualizzazione avanzata è disponibile come anteprima con cluster ONTAP 
 
 
 
+[[27-february-2022]]
 == 27 febbraio 2022
 
 
 
+[[an-on-premises-ontap-tab-is-available-in-the-digital-wallet]]
 === Una scheda " ONTAP locale" è disponibile nel Portafoglio digitale
 
 Ora puoi visualizzare un inventario dei tuoi cluster ONTAP locali, insieme alle date di scadenza dei relativi hardware e contratti di servizio.  Sono disponibili anche ulteriori dettagli sui cluster.
@@ -239,10 +271,12 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-
 
 
 
+[[11-january-2022]]
 == 11 gennaio 2022
 
 
 
+[[tags-that-you-add-to-volumes-on-on-premises-ontap-clusters-can-be-use-with-the-tagging-service]]
 === I tag aggiunti ai volumi nei cluster ONTAP locali possono essere utilizzati con il servizio Tagging
 
 I tag aggiunti a un volume sono ora associati alla funzionalità di tagging del servizio Modelli di applicazione, che può aiutarti a organizzare e semplificare la gestione delle tue risorse.

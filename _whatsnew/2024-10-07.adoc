@@ -4,6 +4,7 @@
 
 
 
+[[support-for-asa-r2-systems]]
 === Supporto per sistemi ASA r2
 
 Ora è possibile rilevare i sistemi NetApp ASA r2 in BlueXP quando si utilizza BlueXP in modalità standard o in modalità limitata.  Dopo aver rilevato un sistema NetApp ASA r2 e aver aperto l'ambiente di lavoro, si accede direttamente a System Manager.

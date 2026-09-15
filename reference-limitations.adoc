@@ -18,6 +18,7 @@ Le limitazioni note identificano piattaforme, dispositivi o funzioni che non son
 
 
 
+[[limitations-related-to-asa-r2-systems]]
 == Limitazioni relative ai sistemi ASA r2
 
 Dopo aver rilevato un sistema NetApp ASA r2, verrai indirizzato a System Manager.
@@ -28,12 +29,14 @@ https://docs.netapp.com/us-en/asa-r2/index.html["Scopri di più sui sistemi ASA 
 
 
 
+[[unsupported-clusters]]
 == Cluster non supportati
 
 I cluster ONTAP locali configurati con autenticazione SAML non sono supportati dalla Console.
 
 
 
+[[system-manager-limitations]]
 == Limitazioni del gestore di sistema
 
 Le seguenti funzionalità di System Manager non sono supportate dalla Console:

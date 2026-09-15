@@ -4,6 +4,7 @@
 
 
 
+[[support-for-asa-r2-systems-with-private-mode]]
 === Supporto per sistemi ASA r2 con modalità privata
 
 Ora è possibile individuare i sistemi NetApp ASA r2 quando si utilizza BlueXP in modalità privata.  Questo supporto è disponibile a partire dalla versione 3.9.46 in modalità privata di BlueXP.
